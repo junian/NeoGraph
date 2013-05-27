@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NeoKruskal.SilverlightSite", "NeoKruskal.SilverlightSite\", "{70467D05-7801-4EB5-AAAD-EE8B1E86D512}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/NeoKruskal.SilverlightSite"
+		Debug.AspNetCompiler.PhysicalPath = "NeoKruskal.SilverlightSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NeoKruskal.SilverlightSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/NeoKruskal.SilverlightSite"
+		Release.AspNetCompiler.PhysicalPath = "NeoKruskal.SilverlightSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\NeoKruskal.SilverlightSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2723"
+		ProjOutputReferences = "{a026dc19-f87d-481c-8364-cc568ebe51ce}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoKruskal.Silverlight", "NeoKruskal.Silverlight\NeoKruskal.Silverlight.csproj", "{A026DC19-F87D-481C-8364-CC568EBE51CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoGraph.Silverlight", "NeoGraph.Silverlight\NeoGraph.Silverlight.csproj", "{938A755F-3322-4EEB-AD34-A0ECBB4F9964}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70467D05-7801-4EB5-AAAD-EE8B1E86D512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70467D05-7801-4EB5-AAAD-EE8B1E86D512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70467D05-7801-4EB5-AAAD-EE8B1E86D512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70467D05-7801-4EB5-AAAD-EE8B1E86D512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A026DC19-F87D-481C-8364-CC568EBE51CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A026DC19-F87D-481C-8364-CC568EBE51CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A026DC19-F87D-481C-8364-CC568EBE51CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A026DC19-F87D-481C-8364-CC568EBE51CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938A755F-3322-4EEB-AD34-A0ECBB4F9964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938A755F-3322-4EEB-AD34-A0ECBB4F9964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938A755F-3322-4EEB-AD34-A0ECBB4F9964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938A755F-3322-4EEB-AD34-A0ECBB4F9964}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
